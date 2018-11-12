@@ -1,0 +1,630 @@
+2018/11/12 22:11:57  INFO [              main ]                       c.b.Blade : current environment is: default
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_91
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\tale
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => GBK
+2018/11/12 22:11:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/tale/target/test-classes/
+2018/11/12 22:11:58  WARN [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : 	Route /admin/api/categories -> GET has exist
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/upload
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/logs
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed.xml
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /atom.xml
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/delete/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/tags
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/index
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/categories
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/attaches
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/new
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template/content
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/content/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/theme/setting
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/delete/:mid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/themes
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/profile
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/article/edit/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/profile
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/save
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/delete/:coid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/login
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/delete/:id
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/delete/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/template/save
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/options
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /install
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/new
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/pages
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap.xml
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/password
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/setting
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/page/edit/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/active
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/advanced/save
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:module/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  ALL     /logout
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/status
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/update
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/update
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /comment
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/comments
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /install
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/login
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/reply
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page.html
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/options/save
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  BEFORE  /.*
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  AFTER   /.*
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: true
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [E:\tale/tale.db]
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite://E:\tale/tale.db]
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : initialize import database - 14
+2018/11/12 22:11:58  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: E:\tale/tale.db
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.tale.controller.admin.AdminApiController@487e4765, com.tale.bootstrap.Bootstrap@6388c42c, com.blade.Environment@4d83c2d3, com.tale.service.ContentsService@586786f5, com.tale.controller.ArticleController@6218a7f3, com.tale.service.SiteService@4794a638, com.tale.controller.admin.AuthController@14526143, com.tale.bootstrap.Bootstrap@6388c42c, com.tale.service.OptionsService@70661d12, com.blade.security.web.csrf.CsrfMiddleware@57e60bd2, com.tale.controller.IndexController@35a1d270, com.tale.controller.CategoryController@327ef5fe, com.tale.service.CommentsService@72b0e02e, com.tale.controller.admin.IndexController@15efdd31, com.tale.controller.admin.PagesController@2ee6bfae, com.tale.controller.InstallController@6b726e89, com.tale.service.MetasService@1eb64259, com.tale.hooks.BaseWebHook@75db12eb, com.blade.security.web.csrf.CsrfMiddleware@57e60bd2, com.tale.task.PageViewTask@6edbc831, com.tale.controller.admin.SystemController@1625e545]
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 95 ms.
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 14 ms, execution: 3 ms, reading and parsing: 11 ms; executed [null]
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2018/11/12 22:11:59 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 3 ms, execution: 1 ms, reading and parsing: 2 ms; executed [null]
+2018/11/12 22:11:59  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2018/11/12 22:12:00  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2018/11/12 22:12:01  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : tale initialize successfully, Time elapsed: 3445 ms
+2018/11/12 22:12:01  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:9000 
+2018/11/12 22:12:01  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:9000 ⚡
+
+2018/11/12 22:12:01  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown ...
+2018/11/12 22:12:05  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown successful
+2018/11/12 22:12:05  INFO [              main ]                       c.b.Blade : current environment is: default
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_91
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\tale
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => GBK
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/tale/target/test-classes/
+2018/11/12 22:12:05  WARN [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : 	Route /admin/api/categories -> GET has exist
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/upload
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/logs
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed.xml
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /atom.xml
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/delete/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/tags
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/index
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/categories
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/attaches
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/new
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template/content
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/content/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/theme/setting
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/delete/:mid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/themes
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/profile
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/article/edit/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/profile
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/save
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/delete/:coid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/login
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/delete/:id
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/delete/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/template/save
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/options
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /install
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/new
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/pages
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap.xml
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/password
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/setting
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/page/edit/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/active
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/advanced/save
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:module/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  ALL     /logout
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/status
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/update
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/update
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /comment
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/comments
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /install
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/login
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/reply
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/options/save
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  BEFORE  /.*
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  AFTER   /.*
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: true
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [E:\tale/tale.db]
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite://E:\tale/tale.db]
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: E:\tale/tale.db
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.tale.controller.admin.AdminApiController@3788c9e9, com.tale.bootstrap.Bootstrap@394f2168, com.blade.Environment@4d83c2d3, com.tale.service.ContentsService@3d70a299, com.tale.controller.ArticleController@78722b53, com.tale.service.SiteService@9446235, com.tale.controller.admin.AuthController@49405614, com.tale.bootstrap.Bootstrap@394f2168, com.tale.service.OptionsService@719c41cf, com.blade.security.web.csrf.CsrfMiddleware@185dd41c, com.tale.controller.IndexController@32a258e8, com.tale.controller.CategoryController@7999585e, com.tale.service.CommentsService@6a98ec9b, com.tale.controller.admin.IndexController@1c1328e0, com.tale.controller.admin.PagesController@3c565692, com.tale.controller.InstallController@f3ea2ee, com.tale.service.MetasService@226f6ba6, com.tale.hooks.BaseWebHook@27be0323, com.blade.security.web.csrf.CsrfMiddleware@185dd41c, com.tale.task.PageViewTask@29d22380, com.tale.controller.admin.SystemController@5301cd86]
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 15 ms.
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2018/11/12 22:12:05 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : tale initialize successfully, Time elapsed: 90 ms
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:9000 
+2018/11/12 22:12:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:9000 ⚡
+
+2018/11/12 22:12:05  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown ...
+2018/11/12 22:12:10  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown successful
+2018/11/12 22:12:10  INFO [              main ]                       c.b.Blade : current environment is: default
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_91
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\tale
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => GBK
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/tale/target/test-classes/
+2018/11/12 22:12:10  WARN [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : 	Route /admin/api/categories -> GET has exist
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/upload
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/logs
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed.xml
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /atom.xml
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/delete/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/tags
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/index
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/categories
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/attaches
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/new
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template/content
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/content/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/theme/setting
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/delete/:mid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/themes
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/profile
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/article/edit/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/profile
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/save
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/delete/:coid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/login
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/delete/:id
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/delete/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/template/save
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/options
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /install
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/new
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/pages
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap.xml
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/password
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/setting
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/page/edit/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/active
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/advanced/save
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:module/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  ALL     /logout
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/status
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/update
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/update
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /comment
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/comments
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /install
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/login
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/reply
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/options/save
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  BEFORE  /.*
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  AFTER   /.*
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: true
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [E:\tale/tale.db]
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite://E:\tale/tale.db]
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: E:\tale/tale.db
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.tale.controller.admin.AdminApiController@52bb4c41, com.tale.bootstrap.Bootstrap@5c7ca866, com.blade.Environment@4d83c2d3, com.tale.service.ContentsService@58432731, com.tale.controller.ArticleController@1d41a25d, com.tale.service.SiteService@15903cf0, com.tale.controller.admin.AuthController@2c1699bc, com.tale.bootstrap.Bootstrap@5c7ca866, com.tale.service.OptionsService@6d2d59a0, com.blade.security.web.csrf.CsrfMiddleware@7d6e5d12, com.tale.controller.IndexController@698d89f3, com.tale.controller.CategoryController@714e2607, com.tale.service.CommentsService@762991d7, com.tale.controller.admin.IndexController@7920c4cd, com.tale.controller.admin.PagesController@7ce7180b, com.tale.controller.InstallController@7c99778e, com.tale.service.MetasService@4684f6e3, com.tale.hooks.BaseWebHook@39fd4452, com.blade.security.web.csrf.CsrfMiddleware@7d6e5d12, com.tale.task.PageViewTask@7d9e3426, com.tale.controller.admin.SystemController@4a0c091c]
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 11 ms.
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2018/11/12 22:12:10 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : tale initialize successfully, Time elapsed: 85 ms
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:9000 
+2018/11/12 22:12:10  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:9000 ⚡
+
+2018/11/12 22:12:10  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown ...
+2018/11/12 22:12:14  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown successful
+2018/11/12 22:12:14  INFO [              main ]                       c.b.Blade : current environment is: default
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_91
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\tale
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => GBK
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/tale/target/test-classes/
+2018/11/12 22:12:14  WARN [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : 	Route /admin/api/categories -> GET has exist
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/upload
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/logs
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed.xml
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /atom.xml
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/delete/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/tags
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/index
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/categories
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/attaches
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/new
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template/content
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/content/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/theme/setting
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/delete/:mid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/themes
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/profile
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/article/edit/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/profile
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/save
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/delete/:coid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/login
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/delete/:id
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/delete/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/template/save
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/options
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /install
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/new
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/pages
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap.xml
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/password
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/setting
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/page/edit/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/active
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/advanced/save
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:module/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  ALL     /logout
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/status
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/update
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/update
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /comment
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/comments
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /install
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/login
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/reply
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/options/save
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  BEFORE  /.*
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  AFTER   /.*
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: true
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [E:\tale/tale.db]
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite://E:\tale/tale.db]
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: E:\tale/tale.db
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.tale.controller.admin.AdminApiController@472e41e6, com.tale.bootstrap.Bootstrap@49e9a773, com.blade.Environment@4d83c2d3, com.tale.service.ContentsService@4dd62a96, com.tale.controller.ArticleController@8d4ad48, com.tale.service.SiteService@3d40fcc5, com.tale.controller.admin.AuthController@39960621, com.tale.bootstrap.Bootstrap@49e9a773, com.tale.service.OptionsService@45e8091f, com.blade.security.web.csrf.CsrfMiddleware@68fb5207, com.tale.controller.IndexController@52e73d09, com.tale.controller.CategoryController@5b499e7a, com.tale.service.CommentsService@5eecc4fd, com.tale.controller.admin.IndexController@6cb5ce4d, com.tale.controller.admin.PagesController@7d1b9a7, com.tale.controller.InstallController@107c4d69, com.tale.service.MetasService@288fa8b7, com.tale.hooks.BaseWebHook@6a8acc4d, com.blade.security.web.csrf.CsrfMiddleware@68fb5207, com.tale.task.PageViewTask@601c4c3a, com.tale.controller.admin.SystemController@12f95255]
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 12 ms.
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2018/11/12 22:12:14 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : tale initialize successfully, Time elapsed: 94 ms
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:9000 
+2018/11/12 22:12:14  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:9000 ⚡
+
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello2]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => INSERT INTO t_options(name,value,description) VALUES (?,?,?)
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello2, world2, null]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : total: 6 ms; executed update [No name]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello2]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello3]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => INSERT INTO t_options(name,value,description) VALUES (?,?,?)
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello3, world3, null]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : total: 4 ms; executed update [No name]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => DELETE FROM t_options WHERE name LIKE ?
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello3%]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : total: 7 ms; executed update [No name]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Parameters  => [hello3]
+2018/11/12 22:12:14 DEBUG [              main ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2018/11/12 22:12:14  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown ...
+2018/11/12 22:12:18  INFO [              main ]             c.b.s.n.NettyServer : Blade shutdown successful
+2018/11/12 22:16:05  INFO [              main ]                       c.b.Blade : current environment is: default
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_91
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\tale
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => UTF-8
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/tale/target/classes/
+2018/11/12 22:16:05  WARN [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : 	Route /admin/api/categories -> GET has exist
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/upload
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/logs
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed.xml
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /atom.xml
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/delete/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/tags
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /feed
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/index
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/categories
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/attaches
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/new
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template/content
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/content/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/theme/setting
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/delete/:mid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/themes
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/profile
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/article/edit/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/profile
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /categories
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/category/save
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/delete/:coid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/login
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/attach/delete/:id
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/delete/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/template/save
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/options
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /install
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/new
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/pages
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tags.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/template
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/password
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sitemap.xml
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/setting
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/page/edit/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/themes/active
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/advanced/save
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/:module/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  ALL     /logout
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/status
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/page/update
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /page/:page.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/articles/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/article/update
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword/:page.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /comment
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /archives
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /admin/api/comments
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /article/:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /install
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/login
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /:cid
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/comment/reply
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /tag/:name/:page.html
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  POST    /admin/api/options/save
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /category/:keyword
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /search/:keyword
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  BEFORE  /.*
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add  hook  AFTER   /.*
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: true
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [E:\tale/tale.db]
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite://E:\tale/tale.db]
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: E:\tale/tale.db
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.tale.controller.admin.AdminApiController@3b79f3d8, com.tale.bootstrap.Bootstrap@f0a9845, com.blade.Environment@59534a6a, com.tale.service.ContentsService@55e75405, com.tale.controller.ArticleController@21749a52, com.tale.controller.admin.AuthController@7a67f689, com.tale.service.SiteService@39a4e3b5, com.tale.bootstrap.Bootstrap@f0a9845, com.tale.service.OptionsService@560ccff8, com.blade.security.web.csrf.CsrfMiddleware@53af6961, com.tale.service.CommentsService@16390e23, com.tale.controller.IndexController@81efe1a, com.tale.controller.CategoryController@385d93ee, com.tale.controller.admin.IndexController@109101e5, com.tale.controller.admin.PagesController@4e074dc2, com.tale.controller.InstallController@31968436, com.tale.service.MetasService@6500a309, com.tale.hooks.BaseWebHook@7d861865, com.blade.security.web.csrf.CsrfMiddleware@53af6961, com.tale.task.PageViewTask@99b234a, com.tale.controller.admin.SystemController@ca9a17b]
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 31 ms.
+2018/11/12 22:16:05  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 12 ms, execution: 3 ms, reading and parsing: 9 ms; executed [null]
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2018/11/12 22:16:06 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : tale initialize successfully, Time elapsed: 1406 ms
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:9000 
+2018/11/12 22:16:06  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:9000 ⚡
+
